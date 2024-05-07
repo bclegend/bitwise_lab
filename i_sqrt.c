@@ -1,3 +1,4 @@
+// Need to use -lm to link to libm when compile
 // v1
 #include <math.h>
 int i_sqrt(int N)
