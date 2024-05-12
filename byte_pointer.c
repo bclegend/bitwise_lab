@@ -31,9 +31,13 @@ void show_pointer(void *x)
 }
 
 
-int main()
-{
-    void *x;
-    show_pointer(x);
-    return 0;
-}
+
+// // test 1 
+// int main()
+// {
+//     int t;
+//     t = 0;
+//     show_int(~t);
+//     return 0;
+// }
+// // result : ff ff ff ff
